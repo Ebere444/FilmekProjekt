@@ -5,20 +5,30 @@ const filmurl = document.getElementById("url");
 const kartyahely = document.getElementById("kartyahelye")
 
 gomb.addEventListener("click", function() {
+
+    if (filmcim.value === "" || filmurl === "") {
+       alert("Töltse ki a kmezőket!");
+       return
+    }
+
+
     const kartya = document.createElement("section");
     const div = document.createElement("div");
     const cimh3 = document.createElement("h3");
     const mufajP = document.createElement("p");
     const kep = document.createElement("img");
 
+
     kartya.classList.add("row"); //Bootstrap formázás
-    div.classList.add("col-md-4", "border", "border-2", "rounded" , "my-2");
+    div.classList.add("card","col-md-6", "border-2", "border-warning", "my-2", "mx-auto" );
     cimh3.classList.add("text-center");
     mufajP.classList.add("text-center", "fw-bold");
-    kep.classList.add("img-fluid", "mx-auto", "my-2", "d-block", "img-rounded");
+    kep.classList.add("img-fluid");
 
-    const torol = document.createElement("button");
-    torol.classList.add("btn","btn-danger", "my-2"); //Bootstrap formázás
+    
+
+    const torol = document.createElement("button"); 
+    torol.classList.add("btn","btn-warning", "my-2"); //Bootstrap formázás
     torol.textContent = "TÖRÖL";
 
 
@@ -29,6 +39,7 @@ gomb.addEventListener("click", function() {
     cimh3.innerText = filmcim.value ;
     mufajP.innerText = filmufaj.value ;
     kep.src = filmurl.value;
+   
 
     
     div.append(cimh3);

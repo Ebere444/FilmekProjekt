@@ -1,8 +1,32 @@
 body {
-    color: white;
+    color: black;
     background-image: url('hatter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+h1 {
+    color: wheat;
+    text-align: center;
+    
+}
+
+h4 {
+    color: wheat;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    margin: 0 auto 0 auto;
+}
+
+section {
+    margin: 0 auto 0 auto;
+
+}
+
+
+    
