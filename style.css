@@ -30,5 +30,14 @@ img {
 
 }
 
+#kartyahelye {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-    
+.film-kep {
+    height: 320px;        
+    width: 100%;
+    object-fit: cover;    
+}

@@ -20,7 +20,7 @@ gomb.addEventListener("click", function() {
 
     
     kartya.classList.add("row"); //Bootstrap formázás
-    div.classList.add("card","col-md-6", "border-2", "border-warning", "my-2", "mx-auto" );
+    div.classList.add("card", "col-md-6", "border-2","border-warning", "my-3", "p-3", "shadow" );
     cimh3.classList.add("text-center");
     mufajP.classList.add("text-center", "fw-bold");
     kep.classList.add("img-fluid");
