@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
 </head>
 <body>
 
+    <div class="header my-4">
+        <h1 class="text-center">Megnézendő Filmek Webalkalmazás</h1>
+    </div>
+    <div class="container">
+        <form action="" class="col-12 my-4 mx-auto">
+            <fieldset class="row">
+            
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="film" placeholder="Film Címe:">
+                    
+                </div>    
+
+                <div class="col-sm-6">
+                    
+                    <select name="" id="mufaj" class="form-control">
+                        <option value="Akcio">Akció</option>
+                        <option value="Vigjatek">Vigjatek</option>
+                        <option value="Drama">Dráma</option>
+                        <option value="Sci-fi">Sci-fi</option>
+                        <option value="Horror">Horror</option>
+                    </select>
+                    <label for="mufaj" class="form-text"></label>
+                </div>
+            
+            </fieldset>
+
+            <fieldset>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="url" placeholder="Kép url:">
+                </div>
+            </fieldset>
+
+            <div class="col-12 my-3">
+                <input type="button" class="btn btn-secondary" value="Hozzáad" id="button">
+            </div>
+        </form>
+    </div>
 <script src="film.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
