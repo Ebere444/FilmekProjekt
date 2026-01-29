@@ -23,8 +23,10 @@ img {
     margin: 0 auto 0 auto;
 }
 
-section {
+.card {
     margin: 0 auto 0 auto;
+    box-shadow: rgb(144, 65, 0) 5px 4px 5px ;
+    
 
 }
 

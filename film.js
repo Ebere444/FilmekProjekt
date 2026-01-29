@@ -18,7 +18,7 @@ gomb.addEventListener("click", function() {
     const mufajP = document.createElement("p");
     const kep = document.createElement("img");
 
-
+    
     kartya.classList.add("row"); //Bootstrap formázás
     div.classList.add("card","col-md-6", "border-2", "border-warning", "my-2", "mx-auto" );
     cimh3.classList.add("text-center");
